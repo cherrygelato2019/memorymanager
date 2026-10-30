@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memorymanager">
+      <UniqueIdentifier>{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memorymanager\asm">
+      <UniqueIdentifier>{B2C3D4E5-F6A7-8901-BCDE-F12345678901}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="memorymanager\memory.cxx">
+      <Filter>memorymanager</Filter>
+    </ClCompile>
+    <ClCompile Include="memorymanager\io.cxx">
+      <Filter>memorymanager</Filter>
+    </ClCompile>
+    <ClCompile Include="memorymanager\transfer.cxx">
+      <Filter>memorymanager</Filter>
+    </ClCompile>
+    <ClCompile Include="memorymanager\syscalls.cxx">
+      <Filter>memorymanager</Filter>
+    </ClCompile>
+    <MASM Include="memorymanager\asm\indirect.asm">
+      <Filter>memorymanager\asm</Filter>
+    </MASM>
+    <ClInclude Include="memorymanager\memory.hxx">
+      <Filter>memorymanager</Filter>
+    </ClInclude>
+    <ClInclude Include="memorymanager\io.hxx">
+      <Filter>memorymanager</Filter>
+    </ClInclude>
+    <ClInclude Include="memorymanager\syscalls.hxx">
+      <Filter>memorymanager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
